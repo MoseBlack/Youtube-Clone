@@ -85,9 +85,300 @@ header {
     text-align: center;
 }
 
+/* Main content styles */
+
+#main-content {
+    margin-top: 0.2em;
+    background-color: #fafafa;
+}
+
+#filter-container,
+hr,
+aside {
+    width: 96%;
+    margin: auto;
+}
+
+aside {
+    margin-top: 1em;
+}
+
+#filter-container {
+    display: flex;
+    padding: 0.5em 0;
+}
+
+.side-container {
+    display: flex;
+}
+
+.title {
+    color: #0A0A0A;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+.sub-title {
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #0A0A0A;
+    margin-bottom: 12px;
+}
+
+.third-title {
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #606060;
+}
+
+#filter {
+    text-decoration: none;
+    padding: 0 0.7em;
+    font-family: sans-serif;
+    font-weight: 550;
+    position: relative;
+    top: 4px;
+    color: #606060;
+}
+
+aside ul > li {
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+.video-description {
+    margin-left: 1em;
+}
+
+hr {
+    background-color: #E1E1E1;
+    opacity: 0.2;
+    height: 1px;
+}
+
+#views-container,
+#likes-container {
+    display: flex;
+}
+
+#main-desc {}
+
+#likes-container {
+    margin-left: 13em;
+}
+
+#views-container {
+    width: 40em;
+    margin-top: 0.9em;
+    border-bottom: 1px solid #909090;
+
+}
+
+.picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#profile-container {
+    display: flex;
+    margin-top: 1.5em;
+}
+
+#subs {
+    margin-left: 16.5em;
+    padding: 0.5em;
+    color: #ffffff;
+    background-color: #FF0000;
+}
+
+#subscribe {
+    font-size: 14px;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+
+#profile-desc {
+    margin-left: 1em;
+}
+
+#ronaldo {
+    margin-top: 0.9em;
+    margin-bottom: 0.9em;
+    color: #0a0a0a;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+#publish {
+    font-size: 13px;
+    color: rgba(17, 17, 17, 0.6);
+    font-family: sans-serif;
+}
+
+#mateo {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0a0a0a;
+    font-family: sans-serif;
+}
+
+#show {
+    color: rgba(17, 17, 17, 0.6);
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+
+#publishsubscr {
+    display: flex;
+}
+
+
+.upvote {
+    display: flex;
+    margin: 0 0.3em;
+}
+
+.save {
+    font-size: 13px;
+    color: #909090;
+    position: relative;
+    top: -7px
+}
+
+#video-title {
+    font-size: 18px;
+    color: #0a0a0a;
+    margin-top: 0.9em;
+    font-family: sans-serif;
+}
+
+.up {
+    padding-right: 0.5em;
+    width: 20px;
+    height: 20px;
+}
+
+#views {
+    padding: 0.5em;
+}
+
+#titlecomment-container {
+    display: flex;
+    margin-top: 1.5em;
+}
+
+#totcom {
+    margin-right: 1.5em;
+}
+
+#sort {
+    position: relative;
+    top: -5px;
+    font-family: sans-serif;
+    color: #606060;
+    font-size: 14px;
+}
+
+#commenting-container {
+    display: flex;
+    margin-top: 1.5em;
+}
+
+#commentlist-container {
+    max-width: 640px;
+    display: flex;
+}
+
+.reply {
+    display: flex;
+}
+
+.reply > p {
+    margin-right: 1.5em;
+}
+
+.rep {
+    font-size: 13px;
+    color: #606060;
+    padding-left: 0.8em;
+    font-family: sans-serif;
+}
+
+#search-comment {
+    margin-left: 0.8em;
+    padding: 0.5em;
+
+}
+
+#inp {
+    border: 0;
+}
+
+#com {
+    font-family: sans-serif;
+}
+
+#listcomments {
+    margin-top: 2em;
+}
+
+#listcomments > li {
+    margin-bottom: 1em;
+}
+
+.comment-desc {
+    margin-left: 1em;
+}
+
+.thumb {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 4px;
+}
+
+.score {
+    color: #111111;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-bottom: 0.5em;
+}
+
+.zahir {
+    color: #0a0a0a;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 550;
+    margin-bottom: 0.5em;
+}
+
+.day {
+    color: #606060;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+
+.viewrep {
+    color: #0a0a0a;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
 @media(max-width:982px) {
     #sign {
-        font-size: 0.6em;
+        font-size: 0.57em;
     }
 
     #search-input {
@@ -111,5 +402,14 @@ header {
         border: none;
     }
 
+}
 
+@media(max-width:721px) {
+    aside {
+        padding: 1em;
+    }
+
+    .sub-title {
+        margin-bottom: 2px;
+    }
 }
