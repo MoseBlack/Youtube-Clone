@@ -93,7 +93,6 @@ header {
 }
 
 #filter-container,
-hr,
 aside {
     width: 96%;
     margin: auto;
@@ -155,6 +154,7 @@ hr {
     background-color: #E1E1E1;
     opacity: 0.2;
     height: 1px;
+    max-width: 640px;
 }
 
 #views-container,
@@ -162,14 +162,21 @@ hr {
     display: flex;
 }
 
-#main-desc {}
+#main-desc {
+    display: flex;
+}
+
+#left {
+    padding: 0 1.2em
+}
 
 #likes-container {
     margin-left: 13em;
 }
 
 #views-container {
-    width: 40em;
+    max-width: 640px;
+    /*width: 40em;*/
     margin-top: 0.9em;
     border-bottom: 1px solid #909090;
 
@@ -184,6 +191,7 @@ hr {
 #profile-container {
     display: flex;
     margin-top: 1.5em;
+    max-width: 640px;
 }
 
 #subs {
@@ -229,6 +237,7 @@ hr {
     font-size: 13px;
     font-family: sans-serif;
     font-weight: 550;
+    margin-bottom: 0.5em;
 }
 
 #publishsubscr {
@@ -253,6 +262,7 @@ hr {
     color: #0a0a0a;
     margin-top: 0.9em;
     font-family: sans-serif;
+    max-width: 640px;
 }
 
 .up {
@@ -268,6 +278,7 @@ hr {
 #titlecomment-container {
     display: flex;
     margin-top: 1.5em;
+    max-width: 640px;
 }
 
 #totcom {
@@ -285,6 +296,7 @@ hr {
 #commenting-container {
     display: flex;
     margin-top: 1.5em;
+    max-width: 640px;
 }
 
 #commentlist-container {
@@ -375,6 +387,100 @@ hr {
     font-size: 14px;
 }
 
+#ad {
+    background-color: #1c1e23;
+    width: 275px;
+    height: 180px;
+    border-radius: 5px;
+    padding: 1.2em 1em;
+}
+
+#distance {
+    color: #43d7ff;
+    max-width: 243.39px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+#inscris {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: sans-serif;
+    max-width: 174.45px;
+    opacity: 0.5;
+
+}
+
+#arro {
+    padding: 25%;
+}
+
+#univ {
+    display: flex;
+    padding: 0.8em 0;
+}
+
+#cent {
+    padding: 1em;
+}
+
+#arrowdiv {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 12px;
+}
+
+#next {
+    padding-right: 12em;
+    font-size: 16px;
+    color: #0a0a0a;
+    font-family: sans-serif;
+}
+
+#autoplay {
+    margin-top: 1em;
+}
+
+#on {
+    margin-left: 5px;
+    position: relative;
+    top: 7px;
+}
+
+#auto {
+    color: #606060;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+#side-video {
+    margin-top: 1.8em;
+}
+
+.listvideos {
+    display: flex;
+}
+
+.small {
+    margin-left: 0.5em;
+    max-width: 200px
+}
+
+.super {
+    color: #606060;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.champ {
+    color: #0a0a0a;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
 
 @media(max-width:982px) {
     #sign {
