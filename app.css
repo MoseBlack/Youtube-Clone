@@ -135,7 +135,7 @@ aside {
     text-decoration: none;
     padding: 0 0.7em;
     font-family: sans-serif;
-    font-weight: 550;
+    font-weight: 600;
     position: relative;
     top: 4px;
     color: #606060;
@@ -203,7 +203,7 @@ hr {
 
 #subscribe {
     font-size: 14px;
-    font-weight: 550;
+    font-weight: 600;
     font-family: sans-serif;
 }
 
@@ -236,7 +236,7 @@ hr {
     color: rgba(17, 17, 17, 0.6);
     font-size: 13px;
     font-family: sans-serif;
-    font-weight: 550;
+    font-weight: 600;
     margin-bottom: 0.5em;
 }
 
@@ -299,7 +299,7 @@ hr {
     max-width: 640px;
 }
 
-#commentlist-container {
+.commentlist-container {
     max-width: 640px;
     display: flex;
 }
@@ -363,7 +363,7 @@ hr {
     color: #0a0a0a;
     font-size: 13px;
     font-family: sans-serif;
-    font-weight: 550;
+    font-weight: 600;
     margin-bottom: 0.5em;
 }
 
